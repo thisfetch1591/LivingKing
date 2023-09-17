@@ -1,0 +1,126 @@
+/* 헤더부분 */
+.header {
+  background-color: #5c6bc0;
+  height: 72px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 999;
+}
+.header .header__mainhome {
+  color: white;
+  font-size: 30px;
+  font-family: "jalnanOTF";
+
+  margin-top: 14px;
+  float: left;
+}
+.header .header__person {
+  float: right;
+
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 35px;
+  color: #ffffff;
+}
+.header .header__info {
+  float: right;
+
+  margin-top: 28px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.header .header__search {
+  float: right;
+
+  margin-top: 26px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.header_scroll {
+  background-color: #ffffff;
+  height: 72px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  box-shadow: 0px 0px 3px gray;
+  z-index: 999;
+}
+.header_scroll .header__mainhome {
+  color: #5c6bc0;
+  font-size: 30px;
+  font-family: "jalnanOTF";
+
+  margin-top: 14px;
+  float: left;
+}
+.header_scroll .header__person {
+  float: right;
+
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 35px;
+  color: #5c6bc0;
+}
+.header_scroll .header__info {
+  float: right;
+
+  margin-top: 28px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: #5c6bc0;
+}
+
+.header_scroll .header__search {
+  float: right;
+
+  margin-top: 26px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: #5c6bc0;
+}
+
+.top {
+  z-index: 1000;
+}
+
+.headermain {
+  width: 950px;
+  margin: 0px auto 0;
+}
+
+.link_dsc_txt {
+  margin-top: 6px;
+}
+.tit_txt {
+  text-decoration: underline;
+  color: #4656c7;
+  font-size: 17px;
+}
+.sub_txt {
+  text-decoration: underline;
+}
+.dsc_sub {
+  margin-top: 4px;
+}
+.dsc_sub:after {
+  clear: both;
+  display: block;
+  visibility: hidden;
+  content: "";
+}
+.date_time {
+  float: none;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.date_time::before {
+  display: none;
+}
+.writerInSearch {
+  font-size: 12px;
+}

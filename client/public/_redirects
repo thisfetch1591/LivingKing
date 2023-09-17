@@ -1,0 +1,7 @@
+/api/*      https://livingin.herokuapp.com/api/:splat 200
+/auth/*     https://livingin.herokuapp.com/auth/:splat 200
+/comments/* https://livingin.herokuapp.com/comments/:splat 200
+/posts/*    https://livingin.herokuapp.com/posts/:splat 200
+/search/*   https://livingin.herokuapp.com/search/:splat 200
+/users/*    https://livingin.herokuapp.com/users/:splat 200
+/*          /index.html 200

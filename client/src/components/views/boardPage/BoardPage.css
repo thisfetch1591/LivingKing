@@ -1,0 +1,203 @@
+.ant-layout-sider-children {
+  position: fixed;
+  background-color: white;
+}
+
+/*포스트 부분 스크롤바 안보이게*/
+.Scrollbar {
+  overflow: hidden;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr;
+}
+
+.ant-layout-content-children {
+  flex-direction: row;
+}
+
+.back {
+  background-color: #5c6bc0;
+  width: 100%;
+  height: 150px;
+}
+
+.content22 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sub_top {
+  width: 1024px;
+  height: 211px;
+  margin: 0 auto;
+  padding-top: 1px;
+  border-radius: 0;
+}
+.sub_top .h2 {
+  display: block;
+  margin: 12px 0 0 50px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.sub_top .area {
+  position: relative;
+  top: 21px;
+  height: auto;
+}
+
+.sub_top .area .btn_area {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 32px;
+  margin: -8px 0 0 38px;
+  padding: 0 36px 0 12px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.04)
+    url("//image.goodchoice.kr/images/web_v3/ico_arr_down_2.png") right 10px top
+    8px no-repeat !important;
+  background-size: 18px auto !important;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #fff;
+}
+.sub_top .area .btn_area span {
+  display: inline;
+  margin: 0 8px 0 0;
+  padding-right: 20px;
+  background: url("//image.goodchoice.kr/images/web_v3/ico_arr_gt.png") 100% 50%
+    no-repeat;
+  background-size: 12px auto;
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.sub_wrap {
+  width: 1024px !important;
+  margin: 0 auto 0 auto;
+  padding-bottom: 50px;
+}
+
+.offff {
+  width: 33%;
+  color: rgba(0, 0, 0, 0.87);
+}
+/* .top_sort button.on span{padding:0 0 0 24px} */
+
+.filter_wrap {
+  float: left;
+  display: inline-block !important;
+  position: relative !important;
+  top: 40px;
+  z-index: 1;
+  width: 296px;
+  margin: 0 32px 0 50px;
+  padding-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background: #fff;
+}
+
+.filter_wrap h3 {
+  display: block;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.filter_wrap .btn_wrap {
+  overflow: hidden;
+  position: relative;
+  top: auto;
+  height: 64px;
+  padding: 0 24px;
+  border-bottom: none;
+}
+.filter_wrap .btn_wrap button {
+  height: 40px;
+  margin-top: 13px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.filter_wrap .btn_wrap button:nth-child(1) {
+  float: left;
+  width: 120px;
+  border: 1px solid #5c6bc0;
+  background: #fff;
+  color: #5c6bc0;
+}
+.filter_wrap .btn_wrap button:nth-child(2) {
+  float: right;
+  width: 120px;
+  border: 1px solid #5c6bc0;
+  background: #5c6bc0;
+  color: #fff;
+}
+
+.filter_wrap section {
+  margin: 0 0 0 24px;
+  padding: 27px 0 0 0;
+  border-bottom: none;
+}
+.filter_wrap section:first-child {
+  height: 134px;
+}
+
+.filter_wrap .date_wrap {
+  display: block;
+}
+.filter_wrap .date_wrap + h3 {
+  margin: 0 24px;
+  padding-top: 31px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.filter_wrap .btn_date {
+  display: inline-block;
+  position: relative;
+  width: 246px;
+  height: 40px;
+  margin: 13px 0 32px 0;
+  padding: 0 0 0 39px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background: rgba(250, 250, 250, 0.7)
+    url("//image.goodchoice.kr/images/web_v3/ico_arr_down.png") right 8px bottom
+    50% no-repeat;
+  background-size: 24px auto;
+  font-size: 18px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.56);
+  text-align: left;
+  box-sizing: border-box;
+}
+.filter_wrap .btn_date:after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  width: 32px;
+  height: 32px;
+  background: url("//image.goodchoice.kr/images/web_v3/ico_cal_2.png") 0 0
+    no-repeat;
+  background-size: 32px auto;
+}
+
+.backtop {
+  height: 40;
+  width: 40;
+  line-height: "40px";
+  border-radius: 4;
+  background-color: "#1088e9";
+  color: "#fff";
+  text-align: "center";
+  font-size: 14;
+}

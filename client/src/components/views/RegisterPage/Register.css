@@ -1,0 +1,35 @@
+.Register {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 0.01fr 0.3fr;
+  grid-template-columns: 0.4fr 0.4fr 0.4fr;
+}
+
+.Register .container {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.container .logo {
+  width: 50%;
+  pointer-events: none;
+  margin-bottom: 3vh;
+}
+.container .RegisterForm {
+  margin: 0 auto;
+  width: 60vh;
+}
+
+.container .avatar-uploader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
