@@ -3,7 +3,6 @@
 
 자취인은 선호 카테고리 기반의 자취인들을 위한 커뮤니티입니다.
 
-https://livingin.netlify.app/
 
 ![로그인](https://user-images.githubusercontent.com/51100935/115723028-86752200-a3ba-11eb-8e58-2322b13683fc.png)
 ![글쓰기](https://user-images.githubusercontent.com/51100935/115723046-8b39d600-a3ba-11eb-8e36-9bb64ecd9b2e.png)
