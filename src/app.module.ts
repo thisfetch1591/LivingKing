@@ -7,9 +7,11 @@ import { CommentController } from './comment/comment.controller';
 import { PostService } from './post/post.service';
 import { UserService } from './user/user.service';
 import { CommentService } from './comment/comment.service';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { typeORMConfig } from './config/typeorm.config';
 
 @Module({
-  imports: [],
+  imports: [TypeOrmModule.forRoot(typeORMConfig)],
   controllers: [
     AppController,
     PostController,
